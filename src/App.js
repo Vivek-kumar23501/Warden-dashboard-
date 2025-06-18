@@ -6,6 +6,7 @@ import './App.css';
 
 import Navbar from './components/Navbar';
 import MessReduction from './components/MessReduction';
+import Hostelallotment from './components/Hostelallotment';
 
 
 
@@ -18,6 +19,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Navbar/>} />
              <Route path="MessReduction" element={<MessReduction/>} />
+             <Route path="AllotmentForm" element={<Hostelallotment/>} />
             
           </Routes>
         </div>
